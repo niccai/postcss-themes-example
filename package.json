@@ -1,0 +1,32 @@
+{
+    "name": "postcss-themes-example",
+    "version": "1.0.0",
+    "description":
+        "A simple example of how to produce multiple, themed CSS stylesheets for a project.",
+    "main": "postcss.config.js",
+    "scripts": {
+        "build:css":
+            "NODE_ENV=production postcss -c postcss.config.js css/themes/*.css -d static/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/niccai/postcss-themes-example.git"
+    },
+    "keywords": ["postcss", "css", "themes", "theming"],
+    "author": "@niccai",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/niccai/postcss-themes-example/issues"
+    },
+    "homepage": "https://github.com/niccai/postcss-themes-example#readme",
+    "devDependencies": {
+        "cssnano": "^3.10.0",
+        "postcss-cli": "^5.0.0",
+        "postcss-import": "^11.1.0",
+        "postcss-simple-vars": "^4.1.0"
+    },
+    "browserslist": ["last 3 versions", "not IE > 1"],
+    "engines": {
+        "node": "8.9.4"
+    }
+}

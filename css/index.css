@@ -1,0 +1,12 @@
+/*
+    THIS FILE IS THE BASE IMPORT FOR ALL THEME CSS OUTPUT
+
+    * This is your root CSS file that is the main import of each theme in /css/themes.
+    * In most cases, you'd have shared imports only in this file (such as components, layout, fonts, etc).
+*/
+
+body {
+    margin: $gutter;
+    background: $color-primary;
+    color: $color-secondary;
+}
